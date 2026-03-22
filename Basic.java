@@ -10,7 +10,6 @@
 
 //Define/What is Java?
 
-
 //Java is a most popular programming language.
 //Java is a high-level, class-based, 
 //Java is an object-oriented programming language that is designed to have as few implementation dependencies as possible.
@@ -59,9 +58,7 @@
 //1. Open terminal
 //2. Navigate to the directory where the file is saved
 //3. Compile the code
-//4. Run the code
-
-//Example:
+//4. Run the code:
 
 //javac filename.java
 //java filename
@@ -81,6 +78,7 @@ class classname{
 //Hello Java
 
 //Explanation of Syntax:
+
 /*
 class(Blueprint)
 public(Access Modifier)
@@ -93,7 +91,7 @@ System.out.println(Print Statement)
 
 //Example:
 
-class BasicJava{
+class Basic{
     public static void main(String[] args){
         System.out.println("Hello World");
     }
@@ -101,19 +99,19 @@ class BasicJava{
 
 //Run in terminal:
 
-/*javac BasicJava.java
-java BasicJava
+/*javac Basic.java
+java Basic
 */
 
 //Runing process:
 
 /*Write code → Save (.java)
         ↓
-Compile → javac BasicJava.java
+Compile → javac Basic.java
         ↓
-Bytecode → BasicJava.class
+Bytecode → Basic.class
         ↓
-Run → java BasicJava
+Run → java Basic
         ↓
 Output → Hello World
 
@@ -122,3 +120,62 @@ Output → Hello World
 //Output:
 
 //Hello World
+
+/*
+
+Advantages of Java:
+
+1.Platform Independent (Write Once, Run Anywhere):
+Java code runs on any system with JVM
+2.Object-Oriented:
+Supports OOP concepts (encapsulation, inheritance, polymorphism)
+3.Secure:
+No pointers, has bytecode verifier and security manager
+4.Robust:
+Strong memory management, exception handling
+5.Multithreading:
+Supports concurrent execution of programs
+6.Portable:
+Same bytecode runs on different platforms
+7.Automatic Garbage Collection:
+No need to manually free memory
+
+*/
+
+/*
+
+Disadvantages of Java
+
+1.Slower than C/C++:
+Because of JVM and interpretation
+2.More Memory Usage:
+JVM consumes extra memory
+3.No Low-Level Programming:
+No direct memory access (no pointers)
+4.Verbose Syntax:
+Requires more lines of code
+5.Less Suitable for High-Performance Systems:
+Not ideal for system-level programming
+
+*/
+
+/*
+
+Applications of Java:
+
+1.Web Applications:
+Backend development using Spring, JSP, Servlets
+2.Mobile Applications:
+Android apps (using Java/Kotlin)
+3.Desktop Applications:
+GUI apps using Swing, JavaFX
+4.Enterprise Applications:
+Banking, ERP systems
+5.Game Development:
+Used in some games (e.g., Minecraft)
+6.Cloud-Based Applications:
+Microservices, distributed systems
+7.Big Data Technologies:
+Used in Apache Hadoop
+
+*/
