@@ -1,6 +1,7 @@
 //Comments in Java:
 
 //Define:
+
 //Comments are the statements that are ignored by the compiler.
 //Comments are used to explain the code.
 //Comments are used to make the code more readable.
