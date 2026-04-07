@@ -54,3 +54,49 @@ class Datatype{
 //40
 //50
 //60
+
+//Non-Primitive Datatype:
+
+//String
+//Array
+//Class
+//Interface
+//Enum
+//Wrapper Class
+//Object
+
+//Example:
+
+/*
+
+//String
+
+class Datatype{
+    public static void main(String[] args){
+        //Non-Primitive Datatype
+        String a = "Hello";
+        System.out.println(a);
+    }
+}
+
+
+//Output:
+
+//Hello
+
+*/
+
+
+
+
+//Note:
+
+//Primitive Datatype are stored in stack memory.
+//Non-Primitive Datatype are stored in heap memory.
+
+//Primitive Datatype are immutable.
+//Non-Primitive Datatype are mutable.
+
+//Primitive Datatype are static.
+//Non-Primitive Datatype are dynamic.
+
