@@ -55,28 +55,31 @@ class Datatype{
 //50
 //60
 
-//Non-Primitive Datatype:
+/* 
 
-//String
-//Array
-//Class & Object
-//Interface
-//Enum
-//Wrapper Class
+Non-Primitive Datatype:
 
-/*
+1.String
+2.Array
+3.Class 
+4.Object
+5.Interface
+6.Enum
+7.Wrapper Class
+
+Define and Example of Non-Primitive Datatype:
 
 1. String:
 
-//A String is a sequence of characters used to store and manipulate text. It is a class in Java.
+A String is a sequence of characters used to store and manipulate text. It is a class in Java.
 
-//Example: "Hello"
+Example: "Hello"
 
-//Syntax:
+Syntax:
 
 String variableName = "value";
 
-//Program:
+Program:
 
 class StringExample {
     public static void main(String[] args) {
@@ -90,15 +93,15 @@ Vijay
 
 2. Array:
 
-//An Array is a collection of elements of the same data type stored in contiguous memory locations.
+An Array is a collection of elements of the same data type stored in contiguous memory locations.
 
-//Example: int arr[] = {1, 2, 3}
+Example: int arr[] = {1, 2, 3}
 
-//Syntax:
+Syntax:
 
 datatype[] arrayName = {value1, value2, value3};
 
-//Program:
+Program:
 
 class ArrayExample {
     public static void main(String[] args) {
@@ -115,22 +118,22 @@ Output:
 
 3. Class & Object:
 
-//A Class is a blueprint or template used to create objects. It defines properties (variables) and behaviors (methods).
+A Class is a blueprint or template used to create objects. It defines properties (variables) and behaviors (methods).
 
 Example: class Student { }
 
-//An Object is an instance of a class. It represents a real-world entity and can access the properties and methods of the class.
+An Object is an instance of a class. It represents a real-world entity and can access the properties and methods of the class.
 
-//Example: Student s = new Student();
+Example: Student s = new Student();
 
-//Syntax:
+Syntax:
 
 class ClassName {
     // properties (variables)
     // behaviors (methods)
 }
 
-//Program:
+Program:
 
 class Student {
     String name = "Vijay";
@@ -152,17 +155,17 @@ Vijay
 
 4. Interface:
 
-//An Interface is a collection of abstract methods that a class must implement. It is used to achieve abstraction.
+An Interface is a collection of abstract methods that a class must implement. It is used to achieve abstraction.
 
-//Example: interface Animal { void sound(); }
+Example: interface Animal { void sound(); }
 
-//Syntax:
+Syntax:
 
 interface InterfaceName {
     // abstract methods
 }
 
-//Program:
+Program:
 
 interface Animal {
     void sound();
@@ -186,18 +189,18 @@ Dog barks
 
 5. Enum:
 
-//An Enum is a special type of data type that can only have a fixed set of values. 
-//It is used to represent a fixed set of constants.
+An Enum is a special type of data type that can only have a fixed set of values. 
+It is used to represent a fixed set of constants.
 
-//Example: enum Day { MONDAY, TUESDAY, WEDNESDAY }
+Example: enum Day { MONDAY, TUESDAY, WEDNESDAY }
 
-//Syntax:
+Syntax:
 
 enum EnumName {
     // constants
 }
 
-//Program:
+Program:
 
 class EnumExample {
     enum Day {
@@ -215,15 +218,15 @@ MONDAY
 
 6. Wrapper Class:
 
-//A Wrapper Class converts primitive data types into objects. Each primitive type has a corresponding wrapper class.
+A Wrapper Class converts primitive data types into objects. Each primitive type has a corresponding wrapper class.
 
-//Example: int → Integer
+Example: int → Integer
 
-//Syntax:
+Syntax:
 
 WrapperClassName variableName = value;
 
-//Program:
+Program:
 
 class WrapperExample {
     public static void main(String[] args) {
