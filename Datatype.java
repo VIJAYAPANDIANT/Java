@@ -71,7 +71,9 @@ Define and Example of Non-Primitive Datatype:
 
 1. String:
 
-A String is a sequence of characters used to store and manipulate text. It is a class in Java.
+A String is a sequence of characters used to store and manipulate text. 
+
+It is a class in Java.
 
 Example: "Hello"
 
@@ -118,7 +120,9 @@ Output:
 
 3. Class & Object:
 
-A Class is a blueprint or template used to create objects. It defines properties (variables) and behaviors (methods).
+A Class is a blueprint or template used to create objects. 
+
+It defines properties (variables) and behaviors (methods).
 
 Example: class Student { }
 
@@ -155,7 +159,9 @@ Vijay
 
 4. Interface:
 
-An Interface is a collection of abstract methods that a class must implement. It is used to achieve abstraction.
+An Interface is a collection of abstract methods that a class must implement. 
+
+It is used to achieve abstraction.
 
 Example: interface Animal { void sound(); }
 
@@ -189,7 +195,8 @@ Dog barks
 
 5. Enum:
 
-An Enum is a special type of data type that can only have a fixed set of values. 
+An Enum is a special type of data type that can only have a fixed set of values.
+
 It is used to represent a fixed set of constants.
 
 Example: enum Day { MONDAY, TUESDAY, WEDNESDAY }
@@ -218,7 +225,9 @@ MONDAY
 
 6. Wrapper Class:
 
-A Wrapper Class converts primitive data types into objects. Each primitive type has a corresponding wrapper class.
+A Wrapper Class converts primitive data types into objects.
+ 
+Each primitive type has a corresponding wrapper class.
 
 Example: int → Integer
 
