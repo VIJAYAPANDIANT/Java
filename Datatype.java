@@ -9,51 +9,192 @@
 //1. Primitive Datatype
 //2. Non-Primitive Datatype
 
-//Primitive Datatype:
+/* 
 
-//int
-//double
-//float
-//char
-//boolean
-//long
-//short
-//byte
+Primitive Datatype:
 
-//Example:
+1.int
+2.double
+3.float
+4.char
+5.boolean
+6.long
+7.short
+8.byte
 
-class Datatype{
-    public static void main(String[] args){
-        //Primitive Datatype
+
+1. int
+
+Definition:
+
+int is used to store whole numbers (integers) without decimals.
+
+Syntax:
+
+int variableName = value;
+
+Program:
+
+class IntExample {
+    public static void main(String[] args) {
         int a = 10;
-        double b = 20.5;
-        float c = 30.5f;
-        char d = 'A';
-        boolean e = true;
-        long f = 40;
-        short g = 50;
-        byte h = 60;
         System.out.println(a);
+    }
+}
+
+Output:
+10
+
+2. double
+
+Definition:
+
+double is used to store decimal numbers with double precision.
+
+Syntax:
+
+double variableName = value;
+
+Program:
+
+class DoubleExample {
+    public static void main(String[] args) {
+        double b = 20.5;
         System.out.println(b);
+    }
+}
+
+Output:
+20.5
+
+3. float
+
+Definition:
+
+float is used to store decimal numbers with single precision (requires f at the end).
+
+Syntax:
+
+float variableName = value;
+
+Program:
+
+class FloatExample {
+    public static void main(String[] args) {
+        float c = 30.5f;
         System.out.println(c);
+    }
+}
+
+Output:
+30.5
+
+4. char
+
+Definition:
+
+char is used to store a single character.
+
+Example:
+
+class CharExample {
+    public static void main(String[] args) {
+        char d = 'A';
         System.out.println(d);
+    }
+}
+
+Output:
+A
+
+5. boolean
+
+Definition:
+
+boolean is used to store true or false values.
+
+Syntax:
+
+boolean variableName = value;
+
+Program:
+
+class BooleanExample {
+    public static void main(String[] args) {
+        boolean e = true;
         System.out.println(e);
+    }
+}
+
+Output:
+true
+
+6. long
+
+Definition:
+
+long is used to store large whole numbers.
+
+Syntax:
+
+long variableName = value;
+
+Program:
+
+class LongExample {
+    public static void main(String[] args) {
+        long f = 100000L;
         System.out.println(f);
+    }
+}
+
+Output:
+100000
+
+7. short
+
+Definition:
+
+short is used to store small whole numbers.
+
+Syntax:
+
+short variableName = value;
+
+Program:
+
+class ShortExample {
+    public static void main(String[] args) {
+        short g = 50;
         System.out.println(g);
+    }
+}
+
+Output:
+50
+
+8. byte
+
+Definition:
+
+byte is used to store very small whole numbers.
+
+Syntax:
+
+byte variableName = value;
+
+Program:
+
+class ByteExample {
+    public static void main(String[] args) {
+        byte h = 60;
         System.out.println(h);
     }
 }
 
-//Output:
+Output:
 
-//10
-//20.5
-//30.5
-//A
-//true
-//40
-//50
-//60
+60
 
 /* 
 
@@ -69,7 +210,9 @@ Non-Primitive Datatype:
 
 Define and Example of Non-Primitive Datatype:
 
-1. String:
+1. String
+
+Definition:
 
 A String is a sequence of characters used to store and manipulate text. 
 
@@ -93,7 +236,9 @@ class StringExample {
 Output:
 Vijay
 
-2. Array:
+2. Array
+
+Definition:
 
 An Array is a collection of elements of the same data type stored in contiguous memory locations.
 
@@ -118,7 +263,9 @@ class ArrayExample {
 Output:
 1 2 3 4
 
-3. Class & Object:
+3. Class & Object
+
+Definition:
 
 A Class is a blueprint or template used to create objects. 
 
@@ -157,7 +304,9 @@ class ClassExample {
 Output:
 Vijay
 
-4. Interface:
+4. Interface
+
+Definition:
 
 An Interface is a collection of abstract methods that a class must implement. 
 
@@ -193,7 +342,9 @@ class InterfaceExample {
 Output:
 Dog barks
 
-5. Enum:
+5. Enum
+
+Definition:
 
 An Enum is a special type of data type that can only have a fixed set of values.
 
@@ -223,7 +374,9 @@ class EnumExample {
 Output:
 MONDAY
 
-6. Wrapper Class:
+6. Wrapper Class
+
+Definition:
 
 A Wrapper Class converts primitive data types into objects.
  
@@ -251,8 +404,7 @@ Output:
 
 /*
 
-Note:
-
+Difference between Primitive and Non-Primitive Data Types:
 
 | Feature            | Primitive Data Types      | Non-Primitive Data Types                      |
 | ------------------ | ------------------------- | --------------------------------------------- |
@@ -265,5 +417,42 @@ Note:
 | **Methods**        | No methods                | Can have methods                              |
 | **Creation**       | Directly created          | Created using `new` keyword (mostly)          |
 | **Type**           | Value type                | Reference type                                |
+
+*/
+
+/*
+
+Data Types (Size & Range)
+
+Primitive Data Types (Size & Range):
+
+| Data Type   | Size                  | Range                              |
+| ----------- | --------------------- | ---------------------------------- |
+| **byte**    | 1 byte (8 bits)       | -128 to 127                        |
+| **short**   | 2 bytes (16 bits)     | -32,768 to 32,767                  |
+| **int**     | 4 bytes (32 bits)     | -2³¹ to 2³¹-1                      |
+| **long**    | 8 bytes (64 bits)     | -2⁶³ to 2⁶³-1                      |
+| **float**   | 4 bytes (32 bits)     | ~ ±3.4 × 10³⁸ (6-7 decimal digits) |
+| **double**  | 8 bytes (64 bits)     | ~ ±1.7 × 10³⁰⁸ (15 decimal digits) |
+| **char**    | 2 bytes (16 bits)     | 0 to 65,535 (Unicode)              |
+| **boolean** | 1 bit (JVM dependent) | true / false                       |
+
+
+Non-Primitive Data Types (Size):
+
+--> No fixed size
+
+| Type          | Size                            |
+| ------------- | ------------------------------- |
+| String        | Depends on number of characters |
+| Array         | Depends on number of elements   |
+| Class         | Depends on variables inside     |
+| Object        | Depends on object data          |
+| Interface     | No storage (only methods)       |
+| Enum          | Depends on constants            |
+| Wrapper Class | Depends on object               |
+
+
+
 
 */
