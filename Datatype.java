@@ -1,13 +1,19 @@
-//Datatype in Java:
+/* 
 
-//Datatype is a type of data that can be stored in a variable.
-//Datatype is a type of data that can be processed by a program.
-//Datatype is a type of data that can be manipulated by a program.
+Datatype in Java
 
-//Types of Datatype:
+Definition:
 
-//1. Primitive Datatype
-//2. Non-Primitive Datatype
+Datatype is a type of data that can be stored in a variable.
+Datatype is a type of data that can be processed by a program.
+Datatype is a type of data that can be manipulated by a program.
+
+Types of Datatype:
+
+1. Primitive Datatype
+2. Non-Primitive Datatype
+
+*/  
 
 /* 
 
