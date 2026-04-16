@@ -8,6 +8,10 @@ Scope of a variable refers to the region in a program where the variable can be 
 
 Types of Scope with Syntax:
 
+          1.Block Scope
+          2.Method Scope
+          3.Class Scope
+
 1. Block Scope
 
 Definition:
@@ -65,7 +69,7 @@ class Test {
     static int b = 20;  // static variable
 }
 
-Java Program Demonstrating Scope/Overall Program
+Overall Program:
 
 class Demo {
     int instanceVar = 10;      // class scope (instance)
@@ -85,7 +89,7 @@ class Demo {
     }
 }
 
-Output
+Output:
 Local Variable: 5
 Instance Variable: 10
 Static Variable: 20

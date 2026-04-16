@@ -15,6 +15,10 @@ comment line used to human understanding the code
 
 Types of Comments:
 
+          1.Single-line comment
+          2.Multi-line comment
+          3.Documentation comment
+
 1. Single-line comment:
 
 //This is a single-line comment
@@ -31,7 +35,7 @@ This is a multi-line comment
 This is a documentation comment
 */
 
-//Example:
+//Example of comments
 
 class Comment{
     public static void main(String[] args){

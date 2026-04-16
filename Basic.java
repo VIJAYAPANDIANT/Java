@@ -1,95 +1,98 @@
-//Java
+/*
 
-//History of Java:
+Java
 
-//James Gosling(Father of Java)
-//Sun Microsystems(Company)
-//1995(Year)
-//Oak(Original Name)
-//Green Project(Project Name)
+History of Java:
 
-//Define/What is Java?
+-James Gosling(Father of Java)
+-Sun Microsystems(Company)
+-1995(Year)
+-Oak(Original Name)
+-Green Project(Project Name)
 
-//Java is a most popular programming language.
-//Java is a high-level, class-based, 
-//Java is an object-oriented programming language that is designed to have as few implementation dependencies as possible.
-//Java is a general-purpose programming language that is class-based, object-oriented, concurrent, and designed to have as few implementation dependencies as possible.
-//Java has multithreading, garbage collection, and exception handling.
-//Java is a platform-independent language.
-//Java is most used language in the world.
-//Java is a WORA(Write Once Run Anywhere) language.(Because of JVM and JRE)
-//Java is more secure language.(Because of JVM)
+Define/What is Java?
 
-//Features of Java:
+-Java is a most popular programming language.
+-Java is a high-level, class-based, 
+-Java is an object-oriented programming language that is designed to have as few implementation dependencies as possible.
+-Java is a general-purpose programming language that is class-based, object-oriented, concurrent, and designed to have as few implementation dependencies as possible.
+-Java has multithreading, garbage collection, and exception handling.
+-Java is a platform-independent language.
+-Java is most used language in the world.
+-Java is a WORA(Write Once Run Anywhere) language.(Because of JVM and JRE)
+-Java is more secure language.(Because of JVM)
 
-//Java is a simple language.
-//Java is a robust language.
-//Java is a secure language.
-//Java is a portable language.
-//Java is a dynamic language.
-//Java is a distributed language.
-//Java is a high-performance language.
-//Java is a multithreaded language.
-//Java is a garbage-collected language.
-//Java is an exception-handling language.
-//Java is a platform-independent language.
+Features of Java:
 
-//Java Environment:
+-Java is a simple language.
+-Java is a robust language.
+-Java is a secure language.
+-Java is a portable language.
+-Java is a dynamic language.
+-Java is a distributed language.
+-Java is a high-performance language.
+-Java is a multithreaded language.
+-Java is a garbage-collected language.
+-Java is an exception-handling language.
+-Java is a platform-independent language.
 
-//JDK(Java Development Kit)
-//JRE(Java Runtime Environment)
-//JVM(Java Virtual Machine)
+Java Environment:
 
-//JDK = JRE + Development Tools
-//JRE = JVM + Class Libraries
-//JVM = Java Virtual Machine
+-JDK(Java Development Kit)
+-JRE(Java Runtime Environment)
+-JVM(Java Virtual Machine)
 
-//How to run java program?
-//1. Write the code
-//2. Compile the code
-//3. Run the code
+-JDK = JRE + Development Tools
+-JRE = JVM + Class Libraries
+-JVM = Java Virtual Machine
 
-//Runing process:
+How to run java program?
+1. Write the code
+2. Compile the code
+3. Run the code
 
-//Source Code -> Compiler ->Byte Code -> JVM -> Machine code
+Runing process:
 
-//Run in terminal:
+Source Code -> Compiler ->Byte Code -> JVM -> Machine code
 
-//1. Open terminal
-//2. Navigate to the directory where the file is saved
-//3. Compile the code
-//4. Run the code:
+Run in terminal:
 
-//javac filename.java
-//java filename
+1. Open terminal
+2. Navigate to the directory where the file is saved
+3. Compile the code
+4. Run the code:
 
-//Syntax of Java:
+javac filename.java
+java filename
+
+*/
 
 /*
+
+Syntax of Java:
+
 class classname{
     public static void main(String[] args){
         System.out.println("Hello Java");
     }
 }
+
+Output:
+Hello Java
+
+Explanation of Syntax:
+
+-class(Blueprint)=Used to define a class
+-public(Access Modifier)=Used to define a access modifier
+-static(Method)=Used to define a method
+-void(Return Type)=Used to define a return type
+-main(Method)=Used to define a method
+-String[] args(Array)=Used to define a array
+-System.out.println(Print Statement)=Used to print a statement
+
 */
 
-//Output:
-
-//Hello Java
-
-//Explanation of Syntax:
-
-/*
-class(Blueprint)
-public(Access Modifier)
-static(Method)
-void(Return Type)
-main(Method)
-String[] args(Array)
-System.out.println(Print Statement)
-*/
-
-//Example:
+//Program:
 
 class Basic{
     public static void main(String[] args){
@@ -97,15 +100,17 @@ class Basic{
     }
 }
 
-//Run in terminal:
+/* 
 
-/*javac Basic.java
+Run in terminal:
+
+javac Basic.java
 java Basic
-*/
 
-//Runing process:
 
-/*Write code → Save (.java)
+Runing process:
+
+Write code → Save (.java)
         ↓
 Compile → javac Basic.java
         ↓
@@ -115,13 +120,8 @@ Run → java Basic
         ↓
 Output → Hello World
 
-*/
-
-//Output:
-
-//Hello World
-
-/*
+Output:
+Hello World
 
 Advantages of Java:
 
@@ -140,10 +140,6 @@ Same bytecode runs on different platforms
 7.Automatic Garbage Collection:
 No need to manually free memory
 
-*/
-
-/*
-
 Disadvantages of Java
 
 1.Slower than C/C++:
@@ -156,10 +152,6 @@ No direct memory access (no pointers)
 Requires more lines of code
 5.Less Suitable for High-Performance Systems:
 Not ideal for system-level programming
-
-*/
-
-/*
 
 Applications of Java:
 

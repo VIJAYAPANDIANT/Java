@@ -38,7 +38,6 @@ class LocalVariableExample {
 }
 
 Output:
-
 10
 
 2. Instance Variable
@@ -65,7 +64,6 @@ class InstanceVariableExample {
 }
 
 Output:
-
 10
 
 3. Static Variable
@@ -91,7 +89,6 @@ class StaticVariableExample {
 }
 
 Output:
-
 10
 
 */
