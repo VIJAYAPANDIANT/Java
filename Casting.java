@@ -10,6 +10,11 @@ Type Casting in Java:
 
 Type Casting = Converting one data type into another.
 
+            1.Widening Casting (Implicit Casting)
+            2.Narrowing Casting (Explicit Casting)
+            3.Upcasting(object casting)
+            4.Downcasting(object casting)
+
 1. Widening Casting (Implicit Casting)
 
 Definition:
@@ -46,6 +51,12 @@ Definition:
 
 Converting a larger data type → smaller data type manually
 
+Order:
+
+double → float → long → int → short → byte
+
+Note: This is the reverse of widening casting.
+
 Syntax:
 
 smallerType variable = (smallerType) largerTypeValue;
@@ -66,7 +77,7 @@ Output:
 Double value: 10.75
 Integer value: 10
 
-Both Together
+Widening and Narrowing Casting Together
 
 Program:
 
