@@ -161,4 +161,18 @@ Trimmed: Vijay
 Replaced:   Pijay  
 Is empty: false
 
+Difference Between String and String Methods
+
+| Feature       | String                                     | String Methods                                       |
+| ------------- | ------------------------------------------ | ---------------------------------------------------- |
+| Definition    | Sequence of characters                     | Functions to operate on strings                      |
+| Type          | Data type (object)                         | Methods (functions)                                  |
+| Usage         | Store text                                 | Manipulate text                                      |
+| Example       | String name = "Vijay";                     | name.length(); name.toUpperCase();                   |
+| Returns       | String value                               | Depends on method (int, boolean, String, etc.)       |
+| Modifiable    | Immutable (cannot be changed)              | Create new strings (strings are immutable)           |
+| Memory        | String pool (for literals)                 | No extra memory (operate on existing string)         |
+| Null Check    | name != null                               | name != null && !name.isEmpty()                      |
+| Common Methods| length(), toUpperCase(), toLowerCase(), etc. | equals(), contains(), charAt(), substring(), etc. |
+
 */
